@@ -3,7 +3,7 @@ import datetime
 saldo = 2000
 extrato_saque = []
 extrato_deposito = []
-saque_do_dia = 150
+saque_do_dia = 1500
 
 def saque_dia(saque_atual, valor):
     return saque_atual - valor
